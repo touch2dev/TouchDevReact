@@ -31,3 +31,73 @@ body {
     text-wrap: balance;
   }
 }
+
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings-icon, .profile-icon {
+  font-size: 24px;
+}
+
+.title h1 {
+  margin: 20px 0;
+  font-size: 32px;
+}
+
+.get-started, .recent-files {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.get-started h2, .recent-files h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(68, 67, 67);
+  border-radius: 5px;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn .icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.file-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.file-icon {
+  font-size: 24px;
+}
+
