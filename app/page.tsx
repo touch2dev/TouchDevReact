@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Window from "@/components/Window";
 import MainFooter from "@/components/MainFooter";
-import useThemeStore from "@/lib/store/ThemeStore";
+import useThemeStore from "@/lib/store/themeStore";
 import Link from "next/link";
 
 // Homepage

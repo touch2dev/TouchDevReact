@@ -8,7 +8,7 @@ const useThemeStore = create((set) => ({
 
 export default useThemeStore
 
-export const themer = (state: any) => {
+export const Themer = (state: any) => {
     const theme = useThemeStore((state: any) => state.theme);
     return theme;
 }
