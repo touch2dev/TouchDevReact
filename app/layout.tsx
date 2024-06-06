@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { Inter, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
-import useThemeStore from "@/lib/store/themeStore";
+import useThemeStore from "@/lib/store/ThemeStore";
 
 const roboto = Roboto_Condensed({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });

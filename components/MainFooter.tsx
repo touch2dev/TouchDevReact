@@ -1,5 +1,5 @@
 "use client";
-import useThemeStore from "@/lib/store/themeStore";
+import useThemeStore from "@/lib/store/ThemeStore";
 import { useEffect, useState } from "react";
 
 const MainFooter = () => {

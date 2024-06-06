@@ -1,5 +1,5 @@
 "use client";
-import useThemeStore from "@/lib/store/themeStore";
+import useThemeStore from "@/lib/store/ThemeStore";
 import { Roboto_Condensed } from "next/font/google";
 import { useEffect, useState } from "react";
 
