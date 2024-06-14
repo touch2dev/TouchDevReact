@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^2.0.4",
     "@nextui-org/navbar": "^2.0.32",
     "@nextui-org/react": "^2.4.1",
     "class-variance-authority": "^0.7.0",
