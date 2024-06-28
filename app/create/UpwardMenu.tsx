@@ -1,5 +1,5 @@
-import React from 'react'
-import useThemeStore from '@/lib/store/themeStore'
+import React from 'react';
+import useThemeStore from '@/lib/store/themeStore';
 
 type UpwardMenuProps = {
     isVisible: boolean;

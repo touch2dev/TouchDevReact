@@ -1,6 +1,7 @@
-import React, {Fragment} from 'react'
-import { Menu, MenuButton, MenuItem, MenuItems, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import React, {Fragment} from 'react';
+import { Menu, MenuButton, MenuItem, MenuItems, Transition } from '@headlessui/react';
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import useThemeStore from '@/lib/store/themeStore';
 
 const OptionsMenu = () => {
   return (
