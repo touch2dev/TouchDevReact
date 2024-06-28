@@ -7,9 +7,9 @@ type UpwardMenuProps = {
     onClose: () => void;
   };
 
-const UpwardMenu = ({isVisible, content, onClose}:UpwardMenuProps) => {
+  const UpwardMenu = ({isVisible, content, onClose}:UpwardMenuProps) => {
+    const { theme } = useThemeStore((state: any) => ({ theme: state.theme }));
     if (!isVisible) return null;
-    const { theme } = useThemeStore((state:any) => ({ theme: state.theme }));
     
   return (
     <div className={`w-full fixed bottom-16 left-1/2 transform -translate-x-1/2 ${theme ? 'bg-[#494949]':'bg-[#A3A3A3]'} shadow-lg p-4 rounded-lg z-50`}>
