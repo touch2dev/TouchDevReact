@@ -44,13 +44,13 @@ const Footer = ({onButtonClick}:FooterProps) => {
             className=" m-0 p-0 flex flex-nowrap items-center"
             // onWheel={() => handleScroll}
             >
-            <FooterButton name="Print" iconurl={<PrintIcon />} onClick={() => onButtonClick(['Print option 1', 'Print option 2'])} />
-            <FooterButton name="Variable" iconurl={<TitleIcon />} onClick={() => onButtonClick(['Variable option 1'])} />
-            <FooterButton name="Classes" iconurl={<ClassIcon />} onClick={() => onButtonClick(['Classes option 1'])}/>
-            <FooterButton name="User Input" iconurl={<ThreePIcon />} onClick={() => onButtonClick(['User Input option 1'])}/>
-            <FooterButton name="Math" iconurl={<CalculateIcon />} onClick={() => onButtonClick(['Math option 1'])}/>
-            <FooterButton name="Conditionals" iconurl={<AutoModeIcon />} onClick={() => onButtonClick(['Conditionals option 1'])}/>
-            <FooterButton name="Generate" iconurl={<QueueIcon />} onClick={() => onButtonClick(['Generate option 1'])}/>
+            <FooterButton name="Print" iconurl={<PrintIcon />} onClick={() => onButtonClick(['Print',[ 'Print option 2', 'Print 3']])} />
+            <FooterButton name="Variable" iconurl={<TitleIcon />} onClick={() => onButtonClick(['Variable', ['Variable option 1']])} />
+            <FooterButton name="Classes" iconurl={<ClassIcon />} onClick={() => onButtonClick(['Classes', ['class option 1']])}/>
+            <FooterButton name="User Input" iconurl={<ThreePIcon />} onClick={() => onButtonClick(['User Input', ['user option 1']])}/>
+            <FooterButton name="Math" iconurl={<CalculateIcon />} onClick={() => onButtonClick(['Math', ['math option 1']])}/>
+            <FooterButton name="Conditionals" iconurl={<AutoModeIcon />} onClick={() => onButtonClick(['Conditionals', ['conditionals option 1']])}/>
+            <FooterButton name="Generate" iconurl={<QueueIcon />} onClick={() => onButtonClick(['Generate', ['generate option 1']])}/>
             </div>
             <ScrollBar orientation="horizontal" />
         </ScrollArea>

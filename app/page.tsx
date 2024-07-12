@@ -11,7 +11,7 @@ export default function Home() {
   const [isSettingsWindowOpen, setIsSettingsWindowOpen] = useState(false);
   const [isProfileWindowOpen, setIsProfileWindowOpen] = useState(false);
   const [openFileWindow, setIsOpenFileWindow] = useState(false);
-
+  
   return (
     <>
       <div className={`home-screen h-screen w-screen ${theme ? "bg-gray-800 text-white " : ""}`}>

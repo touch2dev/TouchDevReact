@@ -5,6 +5,7 @@ import Link from 'next/link';
 import useThemeStore from '@/lib/store/themeStore';
 import OptionsMenu from './OptionsMenu';
 import UpwardMenu from './UpwardMenu';
+import CodeArea from './CodeArea';
 
 
 const Workspace = () => {
@@ -42,7 +43,7 @@ const Workspace = () => {
       </header>
       <div className="flex-1 w-full flex justify-between mb-4 lg:grid flex-col lg:grid-cols-3 lg:grid-rows-8 gap-2">
         <div className={`text-black flex-1 mx-1 border-2 ${theme ? "border-gray-900 bg-[#3b6c79]" : "border-black bg-green-100"} rounded-lg col-span-2 row-span-7  p-2`}>
-            <p>Code Area</p>
+            <CodeArea />
         </div>
         <div className={`text-black flex-1 mx-1 border-2 ${theme ? "border-gray-900 bg-[#567d98]" : "border-black bg-[#aaaedc]"} rounded-lg col-start-3 row-span-7  p-2`}>
             <p>Terminal Area</p>
